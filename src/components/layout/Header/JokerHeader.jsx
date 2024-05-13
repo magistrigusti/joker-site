@@ -1,11 +1,11 @@
 import { Layout } from 'antd';
 import style from './JokerHeader.module.css';
-import JokerPlaceLogo from '../../../../public/JokerPlace-logo.png';
+import JokerPlaceLogo from '../../../img/JokerPlace-logo.png';
 
 const headerStyle = {
   textAlign: 'center',
   color: '#FF971D',
-  height: 80,
+  height: 70,
   paddingInline: 48,
   lineHeight: '64px',
   backgroundColor: '#4A0BB2',

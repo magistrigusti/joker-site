@@ -1,13 +1,15 @@
 import { Layout } from 'antd';
 import JokerHeader from './components/layout/Header/JokerHeader';
 import JokerFooter from './components/layout/Footer/JokerFooter';
-import MainImg from '../public/main-img.png';
+import Main from './pages/Main/Main';
+
+
 
 
 const contentStyle = {
   textAlign: 'center',
   minHeight: 'calc(100vh - 160px)',
-  color: '#AFB663',
+  color: '#FF971D',
   backgroundColor: '#410151',
 };
 const siderStyle = {
@@ -43,16 +45,7 @@ export default function App() {
         </Layout.Sider>
         <Layout.Content style={contentStyle}>
 
-          <div className="title__img-wrapper">
-            <h1>Welcome to the Website Joker Jeton</h1>
-
-            <img style={{height: 200}} src={MainImg} alt />
-          </div>
-          <p>Joker is an Trade exchangeable token, the connecting link of all products
-            ecosystems L2 token solution blockchain to the open network.
-            It is a native token of a poker platform and at the same time a poker chip.
-            The Joker token allows you to play poker on the Poker Place Joker poker platform
-          </p>
+          <Main />
 
         </Layout.Content>
       </Layout>

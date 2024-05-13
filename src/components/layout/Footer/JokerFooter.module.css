@@ -1,4 +1,16 @@
 
-.footer_img {
-  width: 68px;
+.footer_wrapper {
+  display: flex;
+  justify-content: space-around;
 }
+
+.title_footer {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_img {
+  height: 80px;
+}
+
