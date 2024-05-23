@@ -1,0 +1,39 @@
+
+.platform {
+  display: block;
+  margin-top: 70px;
+}
+
+.title_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.platform__img {
+  margin-top: -40px;
+}
+
+.platform__title {
+  margin-top: 50px;
+  display: inline-block;
+  font-family: "Gorditas", serif;
+  font-weight: 700;
+  font-size: 42px;
+  font-style: normal;
+  color: '#FF971D';
+}
+
+.text-wrapper {
+  margin: 20px;
+  color: "#AFB663";
+}
+
+.main__text {
+  font-family: "Gorditas", serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.9;
+  font-style: normal;
+  color: "AFB663";
+  padding: 20px;
+}

@@ -5,7 +5,7 @@
   
 }
 
-.title_wrapper {
+.title-wrapper {
   display: flex;
   justify-content: space-around;
 }
@@ -20,7 +20,7 @@
   color: '#FF971D';
 }
 
-.text_wrapper {
+.text-wrapper {
   margin: 20px;
   color: "#AFB663";
 }

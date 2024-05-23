@@ -1,7 +1,19 @@
-import { Layout } from 'antd';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { Layout, Menu } from 'antd';
+import {
+  AppstoreOutlined,
+  ContainerOutlined,
+  DesktopOutlined,
+  MailOutlined,
+  MenuFoldOutlined,
+  MenuUnfoldOutlined,
+  PieChartOutlined,
+} from '@ant-design/icons';
 import JokerHeader from './components/layout/Header/JokerHeader';
 import JokerFooter from './components/layout/Footer/JokerFooter';
-import Main from './pages/Main/Main';
+import JokerMain from './pages/Main/JokerMain';
+import JokerPlatform from './pages/JokerPlatform/JokerPlatform';
 
 
 
@@ -11,48 +23,64 @@ const contentStyle = {
   minHeight: 'calc(100vh - 160px)',
   color: '#FF971D',
   backgroundColor: '#410151',
+  padding: "0 50px",
+  
 };
 const siderStyle = {
   textAlign: 'center',
   lineHeight: '90px',
-  fontSize: 24,
+  fontSize: "40px",
   color: '#F6EC00',
   backgroundColor: '#39128C',
+  padding: "50px 50px",
 };
 
 
 
 export default function App() {
+
   return (
+    <Router>
+      <Layout >
+        <JokerHeader />
 
-    <Layout >
-      <JokerHeader />
+        <Layout>
+          <Layout.Sider width="15%" style={siderStyle}>
+            <Menu mode='vertical' defaultSelectedKeys={['1']}>
 
-      <Layout>
-        <Layout.Sider width="15%" style={siderStyle}>
-          Menu
-          <br />
-          Joker Platform
-          <br />
-          Staking
-          <br />
-          NFT Colections
-          <br />
-          Road Map
-          <br />
-          Tokenomiks
+              <Menu.Item key="1">
+                <Link to='/main'>Main</Link>
+              </Menu.Item>
+              <Menu.Item key="2">
+                <Link to='/about'>Joker Platform</Link>
+              </Menu.Item>
+              <Menu.Item key="3">
+                <Link to="/staking">Staking</Link>
+              </Menu.Item>
+              <Menu.Item key="4">
+                <Link to="/hft">NFT Colections</Link>
+              </Menu.Item>
+              <Menu.Item key="5">
+                <Link to="/map">Road Map</Link>
+              </Menu.Item>
+              <Menu.Item key="6">
+                <Link to="/tokenomik">Tokenomiks</Link>
+              </Menu.Item>
+              
+            </Menu>
+          </Layout.Sider>
 
-        </Layout.Sider>
-        <Layout.Content style={contentStyle}>
+          <Layout.Content style={contentStyle}>
+            <Routes>
+              <Route exact path="/main" element={<JokerMain />} />
+              <Route exact path="/about" element={<JokerPlatform />} />
+            </Routes>
+          </Layout.Content>
+        </Layout>
 
-          <Main />
-
-        </Layout.Content>
+        <JokerFooter />
       </Layout>
-
-      <JokerFooter />
-    </Layout>
-
+    </Router>
   )
 }
 
