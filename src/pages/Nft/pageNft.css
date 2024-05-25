@@ -1,15 +1,16 @@
-
-.staking {
+.nft {
   display: block;
   margin-top: 70px;
 }
 
-.text-wrapper {
+.nft-wrapper {
+  display: flex;
+  justify-content: space-between;
   margin: 20px;
   color: "#AFB663";
 }
 
-.staking__title {
+.nft__title {
   margin-top: 50px;
   display: inline-block;
   font-family: "Gorditas", serif;
@@ -19,7 +20,7 @@
   color: '#FF971D';
 }
 
-.staking__text {
+.nft__text {
   font-family: "Gorditas", serif;
   font-weight: 400;
   font-size: 28px;
@@ -27,13 +28,4 @@
   font-style: normal;
   color: "AFB663";
   padding: 20px;
-}
-
-.img-wrapper {
-  display: flex;
-  justify-content: space-around;
-}
-
-.staking__img {
-  width: 200px;
 }

@@ -14,6 +14,9 @@ import JokerHeader from './components/layout/Header/JokerHeader';
 import JokerFooter from './components/layout/Footer/JokerFooter';
 import JokerMain from './pages/Main/JokerMain';
 import JokerPlatform from './pages/JokerPlatform/JokerPlatform';
+import JokerStaking from './pages/staking/pageStaking';
+import JokerNFT from './pages/Nft/pageNft';
+import JokerRoadMap from './pages/RoadMap/RoadMap';
 
 
 
@@ -58,10 +61,10 @@ export default function App() {
                 <Link to="/staking">Staking</Link>
               </Menu.Item>
               <Menu.Item key="4">
-                <Link to="/hft">NFT Colections</Link>
+                <Link to="/nft">Joker NFT</Link>
               </Menu.Item>
               <Menu.Item key="5">
-                <Link to="/map">Road Map</Link>
+                <Link to="/roadmap">Road Map</Link>
               </Menu.Item>
               <Menu.Item key="6">
                 <Link to="/tokenomik">Tokenomiks</Link>
@@ -74,6 +77,9 @@ export default function App() {
             <Routes>
               <Route exact path="/main" element={<JokerMain />} />
               <Route exact path="/about" element={<JokerPlatform />} />
+              <Route exact path="/staking" element={<JokerStaking />} />
+              <Route exact path="/nft" element={<JokerNFT />} />
+              <Route exact path="/roadmap" element={<JokerRoadMap />} />
             </Routes>
           </Layout.Content>
         </Layout>

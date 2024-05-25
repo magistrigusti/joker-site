@@ -4,7 +4,7 @@
   margin-top: 70px;
 }
 
-.title_wrapper {
+.title-wrapper {
   display: flex;
   justify-content: space-around;
 }
@@ -28,7 +28,7 @@
   color: "#AFB663";
 }
 
-.main__text {
+.platform__text {
   font-family: "Gorditas", serif;
   font-weight: 400;
   font-size: 28px;
