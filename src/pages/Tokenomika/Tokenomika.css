@@ -1,0 +1,36 @@
+.tokenomiks {
+  display: block;
+  margin-top: 30px;
+}
+
+.intro-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-wrapper {
+  margin: 10px;
+  color: "#AFB663";
+}
+
+.tokenomik__title {
+  margin-top: 10px;
+  display: inline-block;
+  font-family: "Gorditas", serif;
+  font-weight: 700;
+  font-size: 42px;
+  font-style: normal;
+  color: '#FF971D';
+}
+
+.tokenomik-list {
+  display: block;
+  text-align: left;
+  align-items: left;
+  font-family: "Gorditas", serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.9;
+  font-style: normal;
+  color: "#AFB663";
+}

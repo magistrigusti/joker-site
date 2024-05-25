@@ -3,6 +3,7 @@ import style from './JokerHeader.module.css';
 import JokerPlaceLogo from '../../../img/JokerPlace-logo.png';
 
 const headerStyle = {
+  fontFamily: "Rye",
   textAlign: 'center',
   color: '#FF971D',
   height: 70,
