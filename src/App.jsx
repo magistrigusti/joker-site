@@ -20,8 +20,6 @@ import JokerRoadMap from './pages/RoadMap/RoadMap';
 import JokerTokenomiks from './pages/Tokenomika/Tokenomika';
 
 
-
-
 const contentStyle = {
   textAlign: 'center',
   minHeight: 'calc(100vh - 160px)',

@@ -5,11 +5,10 @@ import LogoMagistruGusti from '../../../img/magistrigusti.png';
 import LogoJokerPlace from '../../../img/JokerPlace-logo.png';
 
 const footerStyle = { 
-
   height: 90,
   color: '#FF971D',
   backgroundColor: '#4A0BB2',
-
+  padding: "5px 50px",
 };
 
 export default function JokerFooter() {

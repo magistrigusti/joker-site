@@ -8,11 +8,12 @@
 }
 
 .header__logo {
-  height: 80px;
+  height: 130px;
+  z-index: 2;
 }
 
 .header__title {
   display: flex;
-  align-items: center;
-  text-align: center;
+
 }
+
