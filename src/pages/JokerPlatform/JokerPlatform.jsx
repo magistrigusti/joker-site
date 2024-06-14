@@ -11,7 +11,7 @@ const JokerPlatform = () => {
       </div>
 
       <div className="text-wrapper">
-        <p className="platform__text">
+        <p className="platform__text" style={{color: "#AFB663"}}>
           Use the Joker token to  participate in a poker
           tournament and claim your winnings immediately.
           In the mobile application you can convert winning ito USDT or TON.

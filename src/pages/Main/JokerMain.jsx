@@ -14,7 +14,7 @@ const JokerMain = () => {
       </div>
 
       <div className="text-wrapper" >
-        <p className="main__text">Joker is an Trade exchangeable token, the connecting link of all products
+        <p className="main__text" style={{color: "#AFB663"}}>Joker is an Trade exchangeable token, the connecting link of all products
           ecosystems L2 token solution blockchain to the open network.
           It is a native token of a poker platform and at the same time a poker chip.
           The Joker token allows you to play poker on the Poker Place Joker poker platform

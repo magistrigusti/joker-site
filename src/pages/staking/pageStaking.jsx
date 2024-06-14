@@ -8,7 +8,7 @@ const Staking = () => {
       <div className="text-wrapper">
         <h1 className="staking__title">If you have a joker make a profit</h1>
 
-        <p className="staking__text">
+        <p className="staking__text" style={{color: "#AFB663"}}>
           on the Joker Poker site you can make a deposit for your joker token and receive interest every 50 hours.
           Select the deposit contract that suits you.
           Easy replenishment and withdrawal of deposit.

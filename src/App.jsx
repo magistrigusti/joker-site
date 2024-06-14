@@ -25,7 +25,7 @@ const contentStyle = {
   minHeight: 'calc(100vh - 160px)',
   color: '#FF971D',
   backgroundColor: '#410151',
-  padding: "0 50px",
+  padding: "0 20px",
   
 };
 const siderStyle = {
@@ -34,7 +34,7 @@ const siderStyle = {
   fontSize: "40px",
   color: '#F6EC00',
   backgroundColor: '#39128C',
-  padding: "10px 10px",
+  padding: "35px 5px",
 };
 
 const menuStyle = {
@@ -42,12 +42,12 @@ const menuStyle = {
   lineHeight: '90px',
   fontSize: "20px",
   color: '#F6EC00',
-  padding: "10px",
+  padding: "5px",
   backgroundColor: '#39128C',
 };
 
 const menu = {
-  marginTop: "40px",
+  marginTop: "35px",
   backgroundColor: '#39128C',
 };
 
@@ -57,6 +57,11 @@ const menuItem = {
   
 
 };
+
+const iconsMenu = {
+  marginLeft: 5,
+  color: '#FF971D',
+}
 
 
 
@@ -75,19 +80,19 @@ export default function App() {
                 <Link style={menuItem} to='/main'>Main</Link>
               </Menu.Item>
               <Menu.Item style={menu} key="2">
-                <Link style={menuItem} to='/about'>Joker Platform</Link>
+                <Link style={menuItem} to='/about'> Platform <DesktopOutlined style={iconsMenu} /> </Link>
               </Menu.Item>
               <Menu.Item style={menu} key="3">
-                <Link style={menuItem} to="/staking">Staking</Link>
+                <Link style={menuItem} to="/staking"> Staking <ContainerOutlined style={iconsMenu} /> </Link>
               </Menu.Item>
               <Menu.Item style={menu} key="4">
-                <Link style={menuItem} to="/nft">Joker NFT</Link>
+                <Link style={menuItem} to="/nft"> Joker NFT <AppstoreOutlined style={iconsMenu} /> </Link>
               </Menu.Item>
               <Menu.Item style={menu} key="5">
-                <Link style={menuItem} to="/roadmap">Road Map</Link>
+                <Link style={menuItem} to="/roadmap"> Road Map <MenuUnfoldOutlined style={iconsMenu} /> </Link>
               </Menu.Item>
               <Menu.Item style={menu} key="6">
-                <Link style={menuItem} to="/tokenomik">Tokenomiks</Link>
+                <Link style={menuItem} to="/tokenomik"> Tokenomiks <PieChartOutlined style={iconsMenu} /></Link>
               </Menu.Item>
               
             </Menu>

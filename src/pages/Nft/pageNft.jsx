@@ -9,7 +9,7 @@ const PageNft = () => {
 
       <div className="nft-wrapper">
         <img style={{height: 200, marginBottom: 100}} src={NFT1} alt />
-        <p className="nft__text">
+        <p className="nft__text" style={{color: "#AFB663"}}>
           Take part in tournaments and win unique NFTs that increase your rackBack
           Participate in club rating competitions and receive unique NFTs that increase the prestige of your club.
           Bye and sell NFTs on our marketplace.
